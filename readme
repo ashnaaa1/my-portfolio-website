@@ -1,0 +1,50 @@
+FOR ICONS:
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+ <center></center>- keeps in center
+ <font color=""></font>- provides colour
+ <p></p>- to write paragraph
+
+ To create another link in another page
+<a href="http:ashna.com">Ashna Acharya</a>
+
+for keeping image:
+<img src="1.jpg" alt="about it">
+<ul>/<ol>
+    <li></li>
+</ul>/</ol>
+<b></b>-BOLD
+<i></i>-ITALIC
+<u></u>-UNDERLINED
+To create table:
+<table>
+
+    <tr>
+        <th></th>-table heading
+    </tr>-table row
+    <tr><td></td>-table data </tr>
+</table>
+
+To link website videos of another page you can play the video and copy link then
+<iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/bi54W9A60AA" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+
+text decoration=none /// removes underline
+/////////JS////////
+const logo=document.querySelector("#logo");
+console.log(logo);
+div id=logo [query selector selects the element with id logo]
+if li// const listItem = document.querySelector("li");
+
+You can simply assign a new value to an element's textContent property to update it.
+const logo = document.querySelector("#logo");
+logo.textContent = "Online Store";
+
+The innerHTML property allows you to access the HTML content of an element.
+const hero = document.querySelector(".hero");
+console.log(hero.innerHTML);
